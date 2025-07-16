@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['array_0',['array',['../dd/d39/namespacedetail.html#a917c3efabea8a20dc72d9ae2c673d632af1f713c9e000f5d3f280adbd124df4f5',1,'detail']]],
-  ['array_5fend_1',['array_end',['../dd/d39/namespacedetail.html#a47b1bb0bbd3596589ed9187059c312efa49642fb732aa2e112188fba1f9d3ef7f',1,'detail']]],
-  ['array_5fstart_2',['array_start',['../dd/d39/namespacedetail.html#a47b1bb0bbd3596589ed9187059c312efaa4388a3d92419edbb1c6efd4d52461f3',1,'detail']]]
+  ['shlib_5fglobal_0',['SHLIB_GLOBAL',['../d2/ddd/class_b_t_1_1_shared_library.html#aef39dde7e353d0432f2869ffa9fcd8cfa5130e85a4b3e349814a493d8947a5c91',1,'BT::SharedLibrary']]],
+  ['shlib_5flocal_1',['SHLIB_LOCAL',['../d2/ddd/class_b_t_1_1_shared_library.html#aef39dde7e353d0432f2869ffa9fcd8cfa5cc31a63af764ead3372762681b625f8',1,'BT::SharedLibrary']]]
 ];

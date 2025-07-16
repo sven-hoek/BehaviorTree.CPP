@@ -113,6 +113,12 @@ using&#160;</td><td class="memItemRight" valign="bottom"><b>ExpectedEntry</b> = 
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:af6098e9d554d5f756285f1e7a3fd4b49"><td class="memItemLeft" align="right" valign="top"><a id="af6098e9d554d5f756285f1e7a3fd4b49" name="af6098e9d554d5f756285f1e7a3fd4b49"></a>
+<a class="el" href="../../d0/d64/class_b_t_1_1_json_exporter.html">JsonExporter</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>operator=</b> (<a class="el" href="../../d0/d64/class_b_t_1_1_json_exporter.html">JsonExporter</a> &amp;&amp;)=delete</td></tr>
+<tr class="separator:af6098e9d554d5f756285f1e7a3fd4b49"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa237eda39dd887ed71e8b581c24eae5a"><td class="memItemLeft" align="right" valign="top"><a id="aa237eda39dd887ed71e8b581c24eae5a" name="aa237eda39dd887ed71e8b581c24eae5a"></a>
+<a class="el" href="../../d0/d64/class_b_t_1_1_json_exporter.html">JsonExporter</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>operator=</b> (<a class="el" href="../../d0/d64/class_b_t_1_1_json_exporter.html">JsonExporter</a> &amp;)=delete</td></tr>
+<tr class="separator:aa237eda39dd887ed71e8b581c24eae5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7b63a0b886479881ba2a5fade474b84a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d64/class_b_t_1_1_json_exporter.html#a7b63a0b886479881ba2a5fade474b84a">toJson</a> (const <a class="el" href="../../d7/df4/class_b_t_1_1_any.html">BT::Any</a> &amp;any, nlohmann::json &amp;destination) const</td></tr>
 <tr class="memdesc:a7b63a0b886479881ba2a5fade474b84a"><td class="mdescLeft">&#160;</td><td class="mdescRight">toJson adds the content of "any" to the JSON "destination".  <br /></td></tr>
 <tr class="separator:a7b63a0b886479881ba2a5fade474b84a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -128,15 +134,15 @@ template&lt;typename T &gt; </td></tr>
 <tr class="memitem:a984e954eb7bacad6d9a719d3b1eb8ec7"><td class="memTemplParams" colspan="2"><a id="a984e954eb7bacad6d9a719d3b1eb8ec7" name="a984e954eb7bacad6d9a719d3b1eb8ec7"></a>
 template&lt;typename T &gt; </td></tr>
 <tr class="memitem:a984e954eb7bacad6d9a719d3b1eb8ec7"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><b>addConverter</b> ()</td></tr>
-<tr class="memdesc:a984e954eb7bacad6d9a719d3b1eb8ec7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Register new JSON converters with <a class="el" href="../../d0/d64/class_b_t_1_1_json_exporter.html#a984e954eb7bacad6d9a719d3b1eb8ec7" title="Register new JSON converters with addConverter&lt;Foo&gt;(). You should used first the macro BT_JSON_CONVER...">addConverter&lt;Foo&gt;()</a>. You should used first the macro BT_JSON_CONVERTER. The convertions from/to vector&lt;T&gt; are automatically registered. <br /></td></tr>
+<tr class="memdesc:a984e954eb7bacad6d9a719d3b1eb8ec7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Register new JSON converters with <a class="el" href="../../d0/d64/class_b_t_1_1_json_exporter.html#a984e954eb7bacad6d9a719d3b1eb8ec7" title="Register new JSON converters with addConverter&lt;Foo&gt;(). You should used first the macro BT_JSON_CONVER...">addConverter&lt;Foo&gt;()</a>. You should used first the macro BT_JSON_CONVERTER. The conversions from/to vector&lt;T&gt; are automatically registered. <br /></td></tr>
 <tr class="separator:a984e954eb7bacad6d9a719d3b1eb8ec7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a14d1b56ed46cbafea4527b4d37eaa8f6"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:a14d1b56ed46cbafea4527b4d37eaa8f6"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d0/d64/class_b_t_1_1_json_exporter.html#a14d1b56ed46cbafea4527b4d37eaa8f6">addConverter</a> (std::function&lt; void(const T &amp;, nlohmann::json &amp;)&gt; to_json, bool add_type=true)</td></tr>
-<tr class="memdesc:a14d1b56ed46cbafea4527b4d37eaa8f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">addConverter register a to_json function that converts a json to a type T. The convertion to std:vector&lt;T&gt; is automatically registered.  <br /></td></tr>
+<tr class="memdesc:a14d1b56ed46cbafea4527b4d37eaa8f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">addConverter register a to_json function that converts a json to a type T. The conversion to std:vector&lt;T&gt; is automatically registered.  <br /></td></tr>
 <tr class="separator:a14d1b56ed46cbafea4527b4d37eaa8f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4be57de0487a1678a25008a3d8906199"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:a4be57de0487a1678a25008a3d8906199"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d0/d64/class_b_t_1_1_json_exporter.html#a4be57de0487a1678a25008a3d8906199">addConverter</a> (std::function&lt; void(const nlohmann::json &amp;, T &amp;)&gt; from_json)</td></tr>
-<tr class="memdesc:a4be57de0487a1678a25008a3d8906199"><td class="mdescLeft">&#160;</td><td class="mdescRight">addConverter register a from_json function that converts a json to a type T. The convertions from std::vector&lt;T&gt; is automatically registered.  <br /></td></tr>
+<tr class="memdesc:a4be57de0487a1678a25008a3d8906199"><td class="mdescLeft">&#160;</td><td class="mdescRight">addConverter register a from_json function that converts a json to a type T. The conversions from std::vector&lt;T&gt; is automatically registered.  <br /></td></tr>
 <tr class="separator:a4be57de0487a1678a25008a3d8906199"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
@@ -182,7 +188,7 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>addConverter register a from_json function that converts a json to a type T. The convertions from std::vector&lt;T&gt; is automatically registered. </p>
+<p>addConverter register a from_json function that converts a json to a type T. The conversions from std::vector&lt;T&gt; is automatically registered. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">from_json</td><td>the function with signature void(const nlohmann::json&amp;, T&amp;) </td></tr>
@@ -228,11 +234,11 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>addConverter register a to_json function that converts a json to a type T. The convertion to std:vector&lt;T&gt; is automatically registered. </p>
+<p>addConverter register a to_json function that converts a json to a type T. The conversion to std:vector&lt;T&gt; is automatically registered. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">to_json</td><td>the function with signature void(const T&amp;, nlohmann::json&amp;) </td></tr>
-    <tr><td class="paramname">add_type</td><td>if true, add a field called [__type] with the name ofthe type. </td></tr>
+    <tr><td class="paramname">add_type</td><td>if true, add a field called [__type] with the name of the type. </td></tr>
   </table>
   </dd>
 </dl>

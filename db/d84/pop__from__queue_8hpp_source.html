@@ -115,7 +115,7 @@ $(document).ready(function(){initNavTree('db/d84/pop__from__queue_8hpp_source.ht
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span><span class="comment">/**</span></div>
 <div class="line"><span class="lineno">   21</span><span class="comment"> * Template Action used in ex04_waypoints.cpp example.</span></div>
 <div class="line"><span class="lineno">   22</span><span class="comment"> *</span></div>
-<div class="line"><span class="lineno">   23</span><span class="comment"> * Its purpose is to do make it easy to create while loops wich consume the elements of a queue.</span></div>
+<div class="line"><span class="lineno">   23</span><span class="comment"> * Its purpose is to do make it easy to create while loops which consume the elements of a queue.</span></div>
 <div class="line"><span class="lineno">   24</span><span class="comment"> *</span></div>
 <div class="line"><span class="lineno">   25</span><span class="comment"> * Note that modifying the queue is not thread safe, therefore the action that creates the queue</span></div>
 <div class="line"><span class="lineno">   26</span><span class="comment"> * or push elements into it, must be Synchronous.</span></div>
@@ -142,7 +142,7 @@ $(document).ready(function(){initNavTree('db/d84/pop__from__queue_8hpp_source.ht
 <div class="line"><span class="lineno">   47</span><span class="comment"> *</span></div>
 <div class="line"><span class="lineno">   48</span><span class="comment"> * We avoid this using reference semantic (wrapping the object in a shared_ptr).</span></div>
 <div class="line"><span class="lineno">   49</span><span class="comment"> * Unfortunately, remember that this makes our access to the list not thread-safe!</span></div>
-<div class="line"><span class="lineno">   50</span><span class="comment"> * This is the reason why we add a mutex to be used when modyfying the ProtectedQueue::items</span></div>
+<div class="line"><span class="lineno">   50</span><span class="comment"> * This is the reason why we add a mutex to be used when modifying the ProtectedQueue::items</span></div>
 <div class="line"><span class="lineno">   51</span><span class="comment"> *</span></div>
 <div class="line"><span class="lineno">   52</span><span class="comment"> * */</span></div>
 <div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span> </div>
@@ -190,7 +190,7 @@ $(document).ready(function(){initNavTree('db/d84/pop__from__queue_8hpp_source.ht
 <div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>};</div>
 <div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span> </div>
 <div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span><span class="comment">/**</span></div>
-<div class="line"><span class="lineno">   98</span><span class="comment"> * Get the size of a queue. Usefull is you want to write something like:</span></div>
+<div class="line"><span class="lineno">   98</span><span class="comment"> * Get the size of a queue. Useful when you want to write something like:</span></div>
 <div class="line"><span class="lineno">   99</span><span class="comment"> *</span></div>
 <div class="line"><span class="lineno">  100</span><span class="comment"> *  &lt;QueueSize queue=&quot;{waypoints}&quot; size=&quot;{wp_size}&quot; /&gt;</span></div>
 <div class="line"><span class="lineno">  101</span><span class="comment"> *  &lt;Repeat num_cycles=&quot;{wp_size}&quot; &gt;</span></div>
