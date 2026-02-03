@@ -84,7 +84,7 @@ var hierarchy =
     [ "BT::Grammar::stmt", "d6/db1/struct_b_t_1_1_grammar_1_1stmt.html", null ],
     [ "BT::Tree::Subtree", "d3/d23/struct_b_t_1_1_tree_1_1_subtree.html", null ],
     [ "BT::TestNodeConfig", "d6/d58/struct_b_t_1_1_test_node_config.html", null ],
-    [ "BT::TimerQueue< _Clock, _Duration >", "df/d4c/class_b_t_1_1_timer_queue.html", null ],
+    [ "BT::TimerQueue< ClockT, DurationT >", "df/d4c/class_b_t_1_1_timer_queue.html", null ],
     [ "BT::Timestamp", "d0/d59/struct_b_t_1_1_timestamp.html", null ],
     [ "lexy::token_production", null, [
       [ "BT::Grammar::AnyValue", "d7/d62/struct_b_t_1_1_grammar_1_1_any_value.html", null ],

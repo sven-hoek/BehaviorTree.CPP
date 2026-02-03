@@ -10,5 +10,6 @@ var dir_1573ea42ce800d213ff17f25e5e834ef =
     [ "simple_string.hpp", "dd/d3d/simple__string_8hpp_source.html", null ],
     [ "strcat.hpp", "d7/d3f/strcat_8hpp_source.html", null ],
     [ "timer_queue.h", "d2/dbf/timer__queue_8h_source.html", null ],
-    [ "wakeup_signal.hpp", "d2/dd4/wakeup__signal_8hpp_source.html", null ]
+    [ "wakeup_signal.hpp", "d2/dd4/wakeup__signal_8hpp_source.html", null ],
+    [ "wildcards.hpp", "d1/d00/wildcards_8hpp.html", null ]
 ];

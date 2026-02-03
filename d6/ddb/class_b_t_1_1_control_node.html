@@ -97,12 +97,17 @@ $(document).ready(function(){initNavTree('d6/ddb/class_b_t_1_1_control_node.html
   <div class="headertitle"><div class="title">BT::ControlNode Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>The <a class="el" href="../../d6/ddb/class_b_t_1_1_control_node.html" title="The ControlNode is the base class for nodes that can have multiple children.">ControlNode</a> is the base class for nodes that can have multiple children.  
+ <a href="../../d6/ddb/class_b_t_1_1_control_node.html#details">More...</a></p>
+
+<p><code>#include &lt;<a class="el" href="../../d7/d10/control__node_8h_source.html">control_node.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for BT::ControlNode:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../da/d34/class_b_t_1_1_control_node__inherit__graph.png" border="0" usemap="#a_b_t_1_1_control_node_inherit__map" alt="Inheritance graph"/></div>
 <map name="a_b_t_1_1_control_node_inherit__map" id="a_b_t_1_1_control_node_inherit__map">
-<area shape="rect" title=" " alt="" coords="160,252,287,277"/>
+<area shape="rect" title="The ControlNode is the base class for nodes that can have multiple children." alt="" coords="160,252,287,277"/>
 <area shape="rect" href="../../dc/da6/class_b_t_1_1_fallback_node.html" title="The FallbackNode is used to try different strategies, until one succeeds. If any child returns RUNNIN..." alt="" coords="365,5,498,31"/>
 <area shape="rect" href="../../d8/d08/class_b_t_1_1_if_then_else_node.html" title="IfThenElseNode must have exactly 2 or 3 children. This node is NOT reactive." alt="" coords="357,55,505,80"/>
 <area shape="rect" href="../../dc/d0b/class_b_t_1_1_manual_selector_node.html" title="Use a Terminal User Interface (ncurses) to select a certain child manually." alt="" coords="341,104,522,129"/>
@@ -122,7 +127,7 @@ Collaboration diagram for BT::ControlNode:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../de/d23/class_b_t_1_1_control_node__coll__graph.png" border="0" usemap="#a_b_t_1_1_control_node_coll__map" alt="Collaboration graph"/></div>
 <map name="a_b_t_1_1_control_node_coll__map" id="a_b_t_1_1_control_node_coll__map">
-<area shape="rect" title=" " alt="" coords="5,181,132,207"/>
+<area shape="rect" title="The ControlNode is the base class for nodes that can have multiple children." alt="" coords="5,181,132,207"/>
 <area shape="rect" href="../../da/d61/class_b_t_1_1_tree_node.html" title="Abstract base class for Behavior Tree Nodes." alt="" coords="15,5,122,31"/>
 <area shape="rect" title=" " alt="" coords="85,93,303,119"/>
 </map>
@@ -133,6 +138,18 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a0f396b06b349ec6a138d4915a579eb01"><td class="memItemLeft" align="right" valign="top"><a id="a0f396b06b349ec6a138d4915a579eb01" name="a0f396b06b349ec6a138d4915a579eb01"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>ControlNode</b> (const std::string &amp;<a class="el" href="../../da/d61/class_b_t_1_1_tree_node.html#ac639db3ba4cca6f420b953f36350923c">name</a>, const <a class="el" href="../../dc/d26/struct_b_t_1_1_node_config.html">NodeConfig</a> &amp;<a class="el" href="../../da/d61/class_b_t_1_1_tree_node.html#a7d17e161369b535793ed9c6cc0a6a0ac">config</a>)</td></tr>
 <tr class="separator:a0f396b06b349ec6a138d4915a579eb01"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a036cfce0d59eb58ea73c4b521f448f24"><td class="memItemLeft" align="right" valign="top"><a id="a036cfce0d59eb58ea73c4b521f448f24" name="a036cfce0d59eb58ea73c4b521f448f24"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>ControlNode</b> (const <a class="el" href="../../d6/ddb/class_b_t_1_1_control_node.html">ControlNode</a> &amp;)=delete</td></tr>
+<tr class="separator:a036cfce0d59eb58ea73c4b521f448f24"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ccb0d338c5f8a92248bd85b2b50dd5f"><td class="memItemLeft" align="right" valign="top"><a id="a1ccb0d338c5f8a92248bd85b2b50dd5f" name="a1ccb0d338c5f8a92248bd85b2b50dd5f"></a>
+<a class="el" href="../../d6/ddb/class_b_t_1_1_control_node.html">ControlNode</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>operator=</b> (const <a class="el" href="../../d6/ddb/class_b_t_1_1_control_node.html">ControlNode</a> &amp;)=delete</td></tr>
+<tr class="separator:a1ccb0d338c5f8a92248bd85b2b50dd5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a493ea6951ad9f4884068d98822a0bf19"><td class="memItemLeft" align="right" valign="top"><a id="a493ea6951ad9f4884068d98822a0bf19" name="a493ea6951ad9f4884068d98822a0bf19"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>ControlNode</b> (<a class="el" href="../../d6/ddb/class_b_t_1_1_control_node.html">ControlNode</a> &amp;&amp;)=delete</td></tr>
+<tr class="separator:a493ea6951ad9f4884068d98822a0bf19"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa51b0287b1833ac3a9850b274014cc4"><td class="memItemLeft" align="right" valign="top"><a id="aaa51b0287b1833ac3a9850b274014cc4" name="aaa51b0287b1833ac3a9850b274014cc4"></a>
+<a class="el" href="../../d6/ddb/class_b_t_1_1_control_node.html">ControlNode</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>operator=</b> (<a class="el" href="../../d6/ddb/class_b_t_1_1_control_node.html">ControlNode</a> &amp;&amp;)=delete</td></tr>
+<tr class="separator:aaa51b0287b1833ac3a9850b274014cc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7a0eef4ae2da07156bcc49f304bbbf4f"><td class="memItemLeft" align="right" valign="top"><a id="a7a0eef4ae2da07156bcc49f304bbbf4f" name="a7a0eef4ae2da07156bcc49f304bbbf4f"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>addChild</b> (<a class="el" href="../../da/d61/class_b_t_1_1_tree_node.html">TreeNode</a> *child)</td></tr>
 <tr class="memdesc:a7a0eef4ae2da07156bcc49f304bbbf4f"><td class="mdescLeft">&#160;</td><td class="mdescRight">The method used to add nodes to the children vector. <br /></td></tr>
@@ -335,7 +352,11 @@ template&lt;typename T &gt; </td></tr>
 <tr class="memitem:ac2ecedb8437809238a9662de376e6079 inherit pro_methods_class_b_t_1_1_tree_node"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><b>parseString</b> (const std::string &amp;str) const</td></tr>
 <tr class="separator:ac2ecedb8437809238a9662de376e6079 inherit pro_methods_class_b_t_1_1_tree_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>The <a class="el" href="../../d6/ddb/class_b_t_1_1_control_node.html" title="The ControlNode is the base class for nodes that can have multiple children.">ControlNode</a> is the base class for nodes that can have multiple children. </p>
+<p>ControlNodes determine the order and conditions under which their children are ticked.</p>
+<p>Each derived class implements specific rules about if, when, and how many times children are ticked. </p>
+</div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a99fcae0869f2a0d792af43987c5921f3" name="a99fcae0869f2a0d792af43987c5921f3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a99fcae0869f2a0d792af43987c5921f3">&#9670;&#160;</a></span>halt()</h2>
 
